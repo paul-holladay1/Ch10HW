@@ -10,33 +10,18 @@ class Employee:
         self.__department = department
         self.__job = job
         self.__salary = salary
-    
-    def setName(self, name):
-        self.__name = name
 
     def getName(self):
         return self.__name
-    
-    def setID(self, ID):
-        self.__ID = ID
 
     def getID(self):
         return self.__ID
-    
-    def setDepartment(self, department):
-        self.__department = department
 
     def getDepartment(self):
         return self.__department
-    
-    def setJob(self, job):
-        self.__job = job
 
     def getJob(self):
         return self.__job
-    
-    def setSalary(self, salary):
-        self.__salary = salary
 
     def getSalary(self):
         return self.__salary
