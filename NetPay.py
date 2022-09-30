@@ -18,7 +18,7 @@ charges = [charge1, charge2, charge3, charge4, charge5]
 
 print('*** Employee Pay ***')
 print('Name: ', employee.getName())
-print('ID Number', employee.getID())
+print('ID Number:', employee.getID())
 print('Department: ', employee.getDepartment())
 print('Gross Pay: $', employee.getSalary(), sep='')
 
