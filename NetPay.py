@@ -22,8 +22,9 @@ print('ID Number', employee.getID())
 print('Department: ', employee.getDepartment())
 print('Gross Pay: $', employee.getSalary(), sep='')
 
+balance = employee.getSalary()
+
 for charge in charges:
-    if charge1.getEmployeeID() == employee.getID():
-        charge1.getCharge() -= employee.getSalary()
-    else:
-        print('Net Pay: $', employee.getSalary())
+    if charge.getEmployeeID() == employee.getID():
+        balance -= charge.getCharge()
+print('Net Pay: $', balance, sep='')
